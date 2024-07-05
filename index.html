@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumSum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="Header-name">NumSum</h1>
+    <div class="num-contanier">
+       <input type="text" placeholder="Enter First Number" class="Num1-box" id="num1">
+       <input type="text" placeholder="Enter Second Number" class="Num1-box" id="num2">
+    </div>
+    
+    <p class="sum-result" id="sum-res"></p>
+
+    <button type="button" class="btn" onclick="sum()">
+        SUM
+    </button>
+
+    <script>
+
+        function sum(){
+            const Num1 = document.getElementById("num1")
+            const Num2 = document.getElementById("num2")
+
+            const sum  = parseInt(Num1.value) + parseInt(Num2.value)
+
+            const result = document.getElementById("sum-res")
+
+            result.innerText = `The sum of given two numbers are ${sum}`
+
+        }
+    </script>
+</body>
+</html>

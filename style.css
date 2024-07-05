@@ -1,0 +1,42 @@
+.Header-name{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 80px;
+    background-color: rgb(169, 197, 169);
+    color: #004d4d;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 10px 0 10px 0;
+}
+
+.num-contanier{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 200px;
+}
+
+.Num1-box{
+    height: 30px;
+    width: 250px;
+    border: 2px solid black;
+    border-color: black;
+}
+
+.sum-result{
+    text-align: center;
+    font-size: 35px;
+    color: #004d4d;
+}
+
+.btn{
+    cursor: pointer;
+    margin-left: 48%;
+    height: 35px;
+    width: 70px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: gray;
+    border-color: black;
+    color: #004d4d;
+}
